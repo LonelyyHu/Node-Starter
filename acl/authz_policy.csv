@@ -1,0 +1,8 @@
+p, user, /users/me, GET
+p, user, /acl, GET
+p, admin, /users/me, POST
+p, admin, /messages/list, GET
+p, super-admin, /messages/list, POST
+p, super-admin, /admin, *
+g, admin, user
+g, super-admin, admin

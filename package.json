@@ -20,6 +20,8 @@
   "homepage": "https://github.com/LonelyyHu/Node-Starter#readme",
   "dependencies": {
     "body-parser": "^1.19.0",
+    "casbin": "^3.0.4",
+    "cors": "^2.8.5",
     "dotenv": "^8.1.0",
     "express": "^4.17.1"
   },
